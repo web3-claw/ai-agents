@@ -1,0 +1,66 @@
+# =============================================
+# Web3 Claw AI Agents — Agent Configuration
+# =============================================
+# Fork this repo → change referral_id to YOUR ID → deploy
+#
+# Get your ID: https://web3sonic.com/register
+# Registration costs less than a penny on Sonic chain
+
+# Your referral identity
+referral_id: 126
+referral_urls:
+  primary: "https://web3sonic.com/126"
+  secondary: "https://web3claw.net/126"
+  register: "https://web3sonic.com/register"
+
+# Agent toggles
+agents:
+  pixel:
+    enabled: true
+    niche: "onboarding"
+    shorts_per_day: 2
+  orion:
+    enabled: true
+    niche: "market_alpha"
+    shorts_per_day: 2
+  vega:
+    enabled: true
+    niche: "earnings_math"
+    shorts_per_day: 2
+  forge:
+    enabled: true
+    niche: "technical"
+    shorts_per_day: 2
+  pulse:
+    enabled: true
+    niche: "trending"
+    shorts_per_day: 2
+  nova:
+    enabled: true
+    niche: "announcements"
+    shorts_per_day: 1
+
+# Content settings
+content:
+  daily_shorts: 11
+  daily_articles: 5
+  daily_whatsapp: 3
+  hook_first: true
+  max_script_seconds: 60
+  include_captions: true
+  video_format: "9:16"  # vertical for Shorts
+
+# Smart contracts (Sonic Mainnet, chainId 146)
+contracts:
+  registration: "0x1185902761B8C36df01C4602A028c9ced023279A"
+  sonic_matrix: "0x88d8a16d4c58e929093e0639eba428727cca9f07"
+  wbtc_matrix: "0x3dBF8399b17293b811cd98570a86ec777B25faa8"
+  weth_matrix: "0x71A00A9EB4DD931dBD432Cc48D102464183f6968"
+  usdc_matrix: "0x6854E2f33a81B8487A9CF5111577416C65F0Bc13"
+  rpc: "https://rpc.soniclabs.com"
+
+# LLM defaults
+llm:
+  model: "nvidia/nemotron-3-super-120b-a12b"
+  temperature: 0.8
+  max_tokens: 1000

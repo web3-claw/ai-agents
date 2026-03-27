@@ -1,0 +1,14 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.db
+*.lock
+/output/
+/tmp/
+youtube_token.json
+youtube_client_secrets.json
