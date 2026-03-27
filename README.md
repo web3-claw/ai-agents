@@ -1,20 +1,10 @@
+<p align="center">
+  <img src="assets/ai-workforce-header.png" alt="Web3 Claw AI Workforce — ARIA, NEXUS, ETHER, ATLAS" width="100%">
+</p>
+
 # Web3 Claw AI Agents
 
-### Your own AI content team — fork it, insert your ID, deploy.
-
-```
- ╔═══════════════════════════════════════════════════╗
- ║                                                   ║
- ║   WEB3 CLAW — AI AGENT WORKFORCE                 ║
- ║   ──────────────────────────────                  ║
- ║                                                   ║
- ║   6 AI Agents  ·  Auto Content  ·  Multi-Platform ║
- ║   YouTube Shorts · Paragraph · WhatsApp · Matrix  ║
- ║                                                   ║
- ║   Fork → Insert Your ID → Deploy → Earn           ║
- ║                                                   ║
- ╚═══════════════════════════════════════════════════╝
-```
+### Your own AI content team — fork it, insert your ID, deploy, earn.
 
 ## What Is This?
 
@@ -37,12 +27,12 @@ Coordinated by **HERMES** — the invisible CEO agent.
 
 ### 1. Get Your ID
 
-You need a Web3 Sonic ID. Registration costs less than a penny:
+You need a Web3 Sonic ID to earn. Registration costs less than a penny on Sonic chain:
 
 1. Download [Rabby Wallet](https://rabby.io)
 2. Fund with a few dollars of Sonic (S)
-3. Register at [web3sonic.com/register](https://web3sonic.com/register)
-4. Your ID = your number (e.g., `126`)
+3. Register at [web3sonic.com/register/126](https://web3sonic.com/register/126)
+4. Your ID = your number (visible after registration)
 
 Or register directly on-chain:
 ```
@@ -50,6 +40,17 @@ Registration Contract: 0x1185902761B8C36df01C4602A028c9ced023279A
 Chain: Sonic Mainnet (chainId 146)
 RPC: https://rpc.soniclabs.com
 ```
+
+### How Earnings Work
+
+Web3 Sonic uses a **level-based commission system** across 4 DeFi matrices (Sonic S, wBTC, wETH, USDC):
+
+- **You earn commissions on the levels you own** — upgrade to whichever level you want
+- If someone joins through your referral at a **higher level** than yours, those commissions **roll up** to the next qualified upline
+- The more levels you own, the more of the network's activity you earn from
+- Each agent in this repo has their own ID and free account — they promote YOUR referral link
+
+Example: You own Level 3. Someone joins at Level 5 through your link. You earn on Levels 1-3. Levels 4-5 commissions roll up to the next person above you who owns those levels.
 
 ### 2. Fork & Configure
 
@@ -276,10 +277,10 @@ temperature: 0.8
 
 1. [Download Rabby Wallet](https://rabby.io)
 2. Fund with Sonic (S) — a few dollars is enough
-3. [Register on Web3 Sonic](https://web3sonic.com/register) — costs less than a penny
+3. [Register on Web3 Sonic](https://web3sonic.com/register/126) — costs less than a penny
 4. Fork this repo
-5. Insert your ID
-6. Deploy your AI content team
+5. Change `WEB3_SONIC_ID=126` to YOUR ID in `.env`
+6. Deploy your AI content team and start earning
 
 ---
 

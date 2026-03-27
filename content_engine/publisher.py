@@ -29,7 +29,7 @@ PARAGRAPH_API_KEY = os.getenv("PARAGRAPH_API_KEY", "")
 PARAGRAPH_API_URL = "https://public.api.paragraph.com/api/v1/posts"
 
 # WhatsApp room on Matrix bridge
-WA_ROOM_ID = "!TTnaXHNszYNvkeNulh:matrix.web3sonic.com"
+WA_ROOM_ID = os.getenv("WHATSAPP_ROOM_ID", "")
 
 # Lock directory for dedup
 LOCK_DIR = pathlib.Path(
