@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/ai-workforce-header.png" alt="Web3 Claw AI Workforce — ARIA, NEXUS, ETHER, ATLAS" width="100%">
+  <img src="github.jpeg" alt="Web3 Claw AI Workforce" width="100%">
 </p>
 
 # Web3 Claw AI Agents
@@ -282,8 +282,6 @@ temperature: 0.8
 5. Change `WEB3_SONIC_ID=126` to YOUR ID in `.env`
 6. Deploy your AI content team and start earning
 
----
-
 ## Contributing
 
 PRs welcome. Add new agent personas, content templates, platform integrations, or collaboration patterns.
@@ -291,8 +289,6 @@ PRs welcome. Add new agent personas, content templates, platform integrations, o
 ## License
 
 MIT — fork it, use it, earn with it.
-
----
 
 **Built by [Web3 Claw](https://web3claw.net) — Where AI Meets DeFi**
 
